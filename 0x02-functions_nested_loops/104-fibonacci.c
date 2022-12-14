@@ -5,10 +5,8 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-
 	int c, boolean, boolean2;
 	long int n1, n2, fn, fn2, n11, n22;
 
@@ -18,10 +16,8 @@ int main(void)
 	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 96; c++)
 	{
-
 		if (boolean)
 		{
-
 			fn = n1 + n2;
 			printf(", %ld", fn);
 			n1 = n2;
@@ -29,10 +25,8 @@ int main(void)
 		}
 		else
 		{
-
-			if (boolean2)
+			if (boolean2
 			{
-
 				n11 = n1 % 1000000000;
 				n22 = n2 % 1000000000;
 				n1 = n1 / 1000000000;
@@ -50,9 +44,7 @@ int main(void)
 		}
 		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;
-
 	}
 	printf("\n");
 	return (0);
-
 }
